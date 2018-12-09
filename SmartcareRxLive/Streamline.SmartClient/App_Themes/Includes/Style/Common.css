@@ -1,0 +1,1461 @@
+﻿.transparent
+{
+filter: alpha(opacity=50); /* ie */
+-moz-opacity: .5; /* mozilla */
+background:#ccc;
+}
+
+/*Added by Chandan*/
+.labelNewClass
+{
+font-family:Arial;
+font-Size:8.75pt;
+color: Black;
+}
+
+/*disabled:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color:  #0099cc;
+  color:  #ffffff;
+}
+#content input[disabled] {
+    border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}*/
+.TittleBarBase
+{
+	color: #5b0000;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 11pt;
+}
+
+.PanelBaseOfficeListIE6
+{
+	height: 388px;
+}
+
+.PanelBaseOfficeListIE7
+{
+	min-height: 380px;
+}
+
+.line
+{
+	height: 1px;
+	background-color: #804000;
+}
+
+/* Apply this for buttons in aplication */
+
+.Button
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+}
+
+.graybg
+{
+	background-color: #F4F4F4;
+	font-family: Microsoft Sans Serif;
+	font-size: 10px;
+	color: #183490;
+	font-weight: normal;
+}
+
+.hiddenFields
+{
+	display:none;
+}
+
+.TabText
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 10px;
+	text-decoration: none;
+	color: #183490;
+	font-weight: bold;
+}
+/* Class Added by Sonia for TitleBar Text*/
+.TitleBarText
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.handStyle
+{
+	cursor:pointer;
+	cursor:pointer ;
+}
+
+.linkStyle
+{
+	cursor: pointer;
+	cursor: pointer;
+	color: #3300cc;
+	text-decoration: underline;
+	font-size: 10px;
+	font-family: Verdana;
+}
+
+.maroon20
+{
+	color: #804000;
+	font-size: 20px;
+	font-family: Microsoft Sans Serif;
+}
+/* Class for Drop down List in applications */
+.ddlist
+{
+	height: 20px;
+	font-size: 8.50pt;
+	width: 100px;
+	font-family: Microsoft Sans Serif;
+	border-style: solid;
+	border-left: 1px solid #7B9EBD;
+	border-right: 1px solid #7B9EBD;
+	border-top: 1px solid #7B9EBD;
+	border-bottom: 1px solid #7B9EBD;
+	color: Black;
+	vertical-align:text-top;
+}
+
+/* Modified by Piyush on 6th June 2007 for header of the grids used in the application*/
+/* Modified by Manish Srivastava on 4th July 2007 for header of the grids used in the application*/
+.GridViewHeaderText
+{
+	color: Black;
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-weight: normal;
+	font-size: 8.25pt;
+	text-align: center;
+	vertical-align: middle;
+	height: 20px;
+}
+/*Class added by Sonia for buttons*/
+.ButtonWeb
+{
+	color:#000000;
+font-family: Microsoft Sans Serif;
+	font-size: 12px;
+	cursor: pointer;
+	padding: 5px 12px 5px 12px;
+font-weight:normal;
+}
+
+.ButtonWebBold
+{
+	color: #25383C;
+font-family: Microsoft Sans Serif;
+	font-size: 12px;
+cursor: pointer;
+	padding: 5px 12px 5px 12px;
+	font-weight: bold;
+}
+
+.ButtonWebBold[disabled]
+{
+border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.ButtonWeb[disabled]
+{
+	/*color: grey;
+	text-decoration: none;*/
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+	
+input[type="submit"]:disabled {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+.GridViewHeaderText A
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: underline;
+}
+
+.GridViewHeaderText A:link
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: underline;
+}
+
+.GridViewHeaderText A:visited
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+}
+
+.GridViewHeaderText A:hover
+{
+	color: #797777;
+	font-family: Microsoft Sans Serif;
+}
+
+.GridViewHeaderTextForRadio
+{
+	color: Black;
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-weight: normal;
+	font-size: 8.25pt;
+	text-align: center;
+	vertical-align: middle;
+	height: 20px;
+}
+/* Modified by Piyush on 6th June 2007 for header of the grids used in the application*/
+.GridViewRowStyleInactive
+{
+	background-color: #e5ebee;
+}
+
+.GridViewRowStyle
+{
+	color: black;
+	background-color: #ffffff;
+	font-family: Microsoft Sans Serif;
+	font-weight: Normal;
+	font-size: 8.5pt;
+	vertical-align: top;
+	height: 22px;
+	white-space: nowrap;
+	margin-left: 3px;
+}
+
+.GridViewRowStyleSelected
+{
+	color: #ffffff;
+	background-color: #6D71FC;
+	font-family: Microsoft Sans Serif;
+	font-weight: Normal;
+	font-size: 8.5pt;
+	vertical-align: top;
+	height: 22px;
+	white-space: nowrap;
+	margin-left: 3px;
+}
+
+.GridViewRowStyle A
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.GridViewRowStyle A:link
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.GridViewRowStyle A:visited
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.GridViewRowStyle A:hover
+{
+	color: #797777;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+/* Modified by Piyush on 6th June 2007 for header of the grids used in the application*/
+.GridViewAlternatingRowStyle
+{
+	color: Black;
+	background-color: White;
+	border-style: none;
+	font-family: Microsoft Sans Serif;
+	font-weight: Normal;
+	font-size: 8.25pt;
+	vertical-align: top;
+	height: 5px;
+}
+
+.GridViewAlternatingRowStyle A
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.GridViewAlternatingRowStyle A:link
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.GridViewAlternatingRowStyle A:visited
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.GridViewAlternatingRowStyle A:hover
+{
+	color: #797777;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.GridViewSelectedItem
+{
+	color: navy;
+	background-color: silver;
+	font-family: Microsoft Sans Serif;
+	font-weight: bold;
+	font-size: 8.25pt;
+	cursor: default;
+	vertical-align: middle;
+	height: 5px;
+	cursor: pointer;
+}
+
+/* Modified by Piyush on 6th June 2007 for header of the grids used in the application*/
+.GridViewFooterText
+{
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+}
+
+/* Modified by Piyush on 6th June 2007 for header of the grids used in the application*/
+.GridViewPagerText
+{
+	color: Black;
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-weight: bold;
+	font-size: 8.25pt;
+	text-align: left;
+	vertical-align: middle;
+	height: 5px;
+	position: fixed;
+}
+
+.GridViewPagerText A
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: underline;
+}
+
+.GridViewPagerText A:link
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: underline;
+}
+
+.GridViewPagerText A:visited
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: underline;
+}
+
+.GridViewPagerText A:hover
+{
+	color: #797777;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.EmailGridViewAltitemText
+{
+	color: black;
+	background-color: #ffffff;
+	font-family: Microsoft Sans Serif;
+	font-weight: Normal;
+	font-size: 8.25pt;
+	vertical-align: middle;
+	height: 5px;
+}
+
+.checkBox
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25px;
+	text-decoration: none;
+	color: Black;
+	font-weight: normal;
+}
+/*Css Class Added by Jatinder S for MyPreferences Screen*/
+.table
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: Black; /*background-color: #DCE5EA;*/
+	background-color: White;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	width: 100%;
+	color: #002D45;
+}
+
+.tableWizard
+{
+	border-style: none;
+	background-color: White;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	width: 100%;
+	color: #002D45;
+}
+
+.PopUpTitleBar
+{
+	background-color:#1C5B94;
+	padding-left:3px;
+}
+
+.DescriptionRow
+{
+	color: Black;
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-weight: normal;
+	font-size: 8.25pt;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.blue_bg
+{
+	background-image: url(../images/blue_bg.gif);
+	background-repeat: repeat-x;
+	height: 25px;
+	font-family: Microsoft Sans Serif;
+	font-size: 11px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.gray_bg
+{
+	background-image: url(../images/gray_bg.gif);
+	background-repeat: repeat-x;
+	height: 25px;
+	font-family: Microsoft Sans Serif;
+	font-size: 11px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	color: #000000;
+	text-align: center;
+}
+
+
+.green_bg
+{
+	background-image: url(../images/gray_bg.gif);
+	background-repeat: repeat-x;
+	height: 25px;
+	font-family: Microsoft Sans Serif;
+	font-size: 11px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	color: #000000;
+	text-align: center;
+}
+/* Added by Piyush on 5th June 2007 for Left Navigation Task Pane*/
+/* Modified by Piyush on 17th July 2007 */
+.taskPaneTD
+{
+	border-style: ridge;
+	border-width: 1px;
+	border-bottom-width: 0px;
+	border-color: Highlight;
+	background-color: #f0f0f0;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	height: 20px;
+}
+
+.taskPaneTD A
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.taskPaneTD A:link
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.taskPaneTD A:visited
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+
+.taskPaneTD A:hover
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: none;
+}
+/* Added by Piyush on 5th June 2007 for Left Navigation Task Pane*/
+/* Modified by Piyush on 17th July 2007 */
+.taskPaneBlankColumn
+{
+	border-style: ridge;
+	border-width: 1px;
+	border-bottom-width: 0px;
+	border-color: Highlight;
+	background-color: #1c5b94;
+}
+/* Added by Piyush on 6th June 2007 for Label used in Application*/
+.Label
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	color: Black;
+}
+
+.labelFont
+{
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	padding-left: 5px;
+	color: Black;
+}
+
+.labelClass
+{
+font-weight: bold;
+font-family:Arial;
+font-Size:8.5pt;
+color:#14426B;
+}
+
+/* Added by Sonia */
+.labelHeaderRow
+{
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.50pt;
+	font-weight: bold;
+	padding-left: 5px;
+	color: Black;
+}
+
+/* Added by Sonia */
+.labelFontNew
+{
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.50pt;
+	font-weight: bold;
+	padding-left: 5px;
+	color: Black;
+}
+
+/* Added by Sonia */
+.LabelUnderlineFontNew
+{
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.50pt;
+	font-weight: bold;
+	padding-left: 5px;
+	text-decoration: underline;
+	color: Black;
+}
+
+.LabelItalicFont
+{
+	font-family: Microsoft Sans Serif;
+	font-style: italic;
+	font-size: 8.25pt;
+	padding-left: 5px;
+	color: Black;
+}
+/* For Textbox used in Application*/
+.Textbox
+{
+	background-color: White;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.50pt;
+	border-style: solid;
+	border-left: 1px solid #7B9EBD;
+	border-right: 1px solid #7B9EBD;
+	border-top: 1px solid #7B9EBD;
+	border-bottom: 1px solid #7B9EBD;
+	color: Black;
+	vertical-align: middle;
+	padding-top: 1px;
+	height: 17px;
+}
+/* Added by Piyush on 6th June 2007 for Textbox used in Application*/
+
+.bannerHeadingFont
+{
+	background-color: White;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	color: WindowText;
+	border-style: none;
+	cursor: text;
+}
+/* Added by Piyush on 6th June 2007 for TitleBar used in Application*/
+.titleBarFont
+{
+	color: #5b0000;
+	font-family: Microsoft Sans Serif;
+	font-weight: bold;
+	font-size: 10pt;
+}
+/* Added by Piyush on 6th June 2007 for TitleBar used in Application*/
+.gridLinks
+{
+}
+/* Added by Priya on 7th June 2007 for the Dashboard*/
+
+.dashBoard
+{
+	background-color: White;
+	font-size: 8pt;
+	font-weight: normal;
+	text-decoration: underline;
+	border-right: black 1px double;
+	border-top: black 1px double;
+	border-left: black 1px double;
+	border-bottom: black 1px double;
+	border: 1pt;
+}
+
+.dashBoardFont
+{
+	background-color: #c4ddf7;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 8pt;
+	border: 1pt;
+	border-style: solid;
+	border-color: Black;
+}
+
+/* Added by Ashish kumar Jauhari on 7th June for Login Page */
+.blacktextbold
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 11px;
+	color: #32332D;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Added by Ashish kumar Jauhari on 7th June for Login Page */
+.blacktextboldbig
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 15px;
+	color: #32332D;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Added by Ashish kumar Jauhari on 7th June for Login Page */
+.redtextbold
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 17px;
+	color: #950732;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footertextbold
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 10px;
+	color: Black;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.textbolditalic
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 10px;
+	color: Black;
+	text-decoration: none;
+	font-weight: bold;
+	font-style:italic;  
+}
+
+/* Added by Ashish kumar Jauhari on 7th June for Login Page */
+.loginborder
+{
+	border-right: #A8C2DC 1px solid;
+	border-top: #A8C2DC 1px solid;
+	border-left: #A8C2DC 1px solid;
+	border-bottom: #A8C2DC 1px solid;
+	background-color: #D7E3EF;
+	padding-right: 10px;
+}
+
+/* Added by Ashish kumar Jauhari on 7th June for Login Page */
+.bluetextbold
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 11px;
+	color: #051C3B;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Added by Ashish kumar Jauhari on 11th June for Login Page */
+.redTextError
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: red;
+	font-weight:bold;
+}
+
+/* Added by Ashish kumar Jauhari on 7th June for Login Page */
+.inbuttons
+{
+	width: auto;
+	border: 1px solid #236799;
+	border-top-color: #105688;
+	border-left-color: #105688;
+	padding: 0.0em;
+	background-color: #4687b9;
+	background-image: url(../images/inbuttonbg.gif);
+	background-position: left top;
+	background-repeat: repeat-x;
+	color: #fff;
+	font-size: 13.3px;
+	font-weight: bold;
+	font-family: Microsoft Sans Serif;
+	cursor: pointer;
+}
+
+/* Added by Ashish kumar Jauhari on 7th June for Login Page */
+.txtbx1
+{
+	border-right: #6a92b7 1px solid;
+	border-top: #6a92b7 1px solid;
+	font-size: 8pt;
+	border-left: #6a92b7 1px solid;
+	color: #000000;
+	border-bottom: #6a92b7 1px solid;
+	font-family: Microsoft Sans Serif;
+	background-color: #ffffff;
+	width: 145px;
+}
+/* Added by Manish Srivastava For Temerary */
+.ClientList
+{
+	color: Black;
+	background-color: #ffffff;
+	font-family: Microsoft Sans Serif;
+	font-weight: Normal;
+	font-size: 8.25pt;
+	height: 15px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+/* Added by Piyush on 11th June 2007 for Heading of every Banner used in Application*/
+.LeftHeading
+{
+	background-image: url(../Images/tabs_03.gif);
+	width: 12px;
+	height: 21px;
+}
+/* Added by Piyush on 11th June 2007 for Heading of every Banner used in Application*/
+.CenterHeading
+{
+	background-image: url(../Images/tabs_04.gif);
+	font-family: Tahoma;
+	font-size: 8.25pt;
+	color: #143c6b;
+}
+/* Added by Piyush on 11th June 2007 for Heading of every Banner used in Application*/
+.RightHeading
+{
+	background-image: url(../Images/tabs_06.gif);
+	width: 12px;
+	height: 21px;
+}
+
+.ActiveTab .LeftHeading
+{
+	background-image: url(../Images/tabs_03x.gif);
+	width: 12px;
+	height: 21px;
+}
+/* Added by Piyush on 11th June 2007 for Heading of every Banner used in Application*/
+.ActiveTab .CenterHeading
+{
+	background-image: url(../Images/tabs_04x.gif);
+	font-family: Tahoma;
+	font-size: 8.25pt;
+	color: #143c6b;
+}
+/* Added by Piyush on 11th June 2007 for Heading of every Banner used in Application*/
+.ActiveTab .RightHeading
+{
+	background-image: url(../Images/tabs_06x.gif);
+	width: 12px;
+	height: 21px;
+}
+
+/*Added by Pratap Singh on 12 June for services Screen GridView */
+.Services, .Services A, .Services A:link
+{
+	color: Black;
+	font-family: Microsoft Sans Serif;
+	text-decoration: underline;
+	font-size: 7pt;
+	cursor: pointer;
+}
+
+/*Added by Amit Paul Singh on 13th June for Button Color */
+.ButtonStyle
+{
+	border: 1px solid #236799;
+	border-top-color: #105688;
+	border-left-color: #105688;
+	padding: 0.0em;
+	background-color: #4687b9;
+	background-image: url(../images/inbuttonbg.gif);
+	background-position: left top;
+	background-repeat: repeat-x;
+	color: #fff;
+	font-size: 11px;
+	font-family: Microsoft Sans Serif;
+	cursor: pointer;
+}
+
+.LabelClaimline
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 8.20pt;
+	color: Black;
+}
+
+.LinkLabel
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	color: #404040;
+}
+
+.SumarryLabel
+{ 
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	color: Black;
+}
+/*Added by Priya on 15thJune for fixing the header in the Grid*/
+
+.DataGridFixedHeader
+{
+	background-color: #c4ddf7;
+	font-weight: bold;
+	font-family: Tahoma;
+	text-decoration: underline;
+	font-size: 8.25pt;
+	vertical-align: middle;
+	height: 20px;
+	border: 1pt;
+	border-style: solid;
+	border-color: Black;
+    position: relative;	
+}
+/* Author: Pradeep                     */
+/* UsedIn:MedicationOrderDetail.ascx    */
+/*Description:Written to implement on Header text as per task#2703*/
+.DataGridFixedHeaderOrderDetail
+{
+	background-color: #c4ddf7;
+	font-weight: bold;
+	font-family: Tahoma;
+	text-decoration: underline;
+	font-size: 8.25pt;
+	vertical-align: middle;
+	height: 20px;
+	border: 1pt;
+	border-style: solid;
+	border-color: Black;
+}
+
+.TableFixedHeader
+{
+	background-color: #dce5ea;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 8.25pt;
+	vertical-align: middle;
+	height: 20px;
+}
+	
+.DataGridFixedHeaderA
+{
+	color: Black;
+	font-family: Tahoma;
+}
+
+.DataGridFixedHeaderA:link
+{
+	color: Black;
+	font-family: Tahoma;
+	text-decoration: underline;
+}
+
+.DataGridFixedHeaderA:visited
+{
+	color: Black;
+	font-family: Tahoma;
+}
+
+.DataGridFixedHeaderA:hover
+{
+	color: Black;
+	font-family: Tahoma;
+}
+/* Added By Manish Srivastava */
+.list_Race, .list_collapse
+{
+	position: absolute;
+	background: #ffffff;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	color: Black;
+	width: 200px;
+	height: 35px;
+	/*overflow-y: scroll;*/
+	border: 1px solid #666;
+	padding: 2px;
+	text-align: left;
+	display: block;
+}
+
+.list_Race:hover, .list_expand
+{
+	height: 180px;
+}
+
+/*Added by Jatinder on 19thJune for Alerts.ascx*/
+.Alerts
+{
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+}
+/* Added By Pramod for Ajax  tab */
+/* default layout */
+/*.ajax__tab_default .ajax__tab_header
+{
+	white-space: nowrap;
+}
+.ajax__tab_default .ajax__tab_outer
+{
+	display: -moz-inline-box;
+	display: inline-block;
+}
+.ajax__tab_default .ajax__tab_inner
+{
+	display: -moz-inline-box;
+	display: inline-block;
+}
+.ajax__tab_default .ajax__tab_tab
+{
+	margin-right: 4px;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	display: -moz-inline-box;
+	display: inline-block;
+}
+
+/* xp theme */
+.ajax__tab_xp .ajax__tab_header
+{
+	font-family: verdana,tahoma,helvetica;
+	font-size: 11px;
+	background: url(../Images/AjaxControlToolkit.Tabs.tab-line.gif) repeat-x bottom;
+}
+
+.ajax__tab_xp .ajax__tab_outer
+{
+	padding-right: 4px;
+	background: url(../Images/AjaxControlToolkit.Tabs.tab-right.gif) no-repeat right;
+	height: 21px;
+}
+
+.ajax__tab_xp .ajax__tab_inner
+{
+	padding-left: 3px;
+	background: url(../Images/AjaxControlToolkit.Tabs.tab-left.gif) no-repeat;
+}
+
+.ajax__tab_xp .ajax__tab_tab
+{
+	height: 13px;
+	padding: 4px;
+	margin: 0;
+	background: url(../Images/AjaxControlToolkit.Tabs.tab.gif) repeat-x;
+}
+
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_inner
+{
+	background: url(../Images/AjaxControlToolkit.Tabs.tab-hover-left.gif) no-repeat;
+}
+
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_tab
+{
+	background: url(../Images/AjaxControlToolkit.Tabs.tab-hover.gif) repeat-x;
+}
+
+.ajax__tab_xp .ajax__tab_active .ajax__tab_outer
+{
+	background: url(../Images/AjaxControlToolkit.Tabs.tab-active-right.gif) no-repeat right;
+}
+
+.ajax__tab_xp .ajax__tab_active .ajax__tab_inner
+{
+	background: url(../Images/AjaxControlToolkit.Tabs.tab-active-left.gif) no-repeat;
+}
+
+.ajax__tab_xp .ajax__tab_active .ajax__tab_tab
+{
+	background: url(../Images/AjaxControlToolkit.Tabs.tab-active.gif) repeat-x;
+}
+
+.ajax__tab_xp .ajax__tab_body
+{
+	font-family: verdana,tahoma,helvetica;
+	font-size: 10pt;
+	border: 1px solid #999999;
+	border-top: 0;
+	padding: 8px;
+	background-color: #ffffff;
+}
+
+/* scrolling 
+.ajax__scroll_horiz {overflow-x:scroll;}
+.ajax__scroll_vert {overflow-y:scroll;}*/
+.ajax__scroll_both
+{
+	overflow: scroll;
+}
+
+.ajax__scroll_auto
+{
+	overflow: auto;
+}
+
+
+/* Added by Piyush on 5th july 2007 for Error Message shown to the user, common for every screen*/
+.errorMessageClass
+{
+	font-family: Microsoft Sans Serif;
+	color: Black;
+	font-size: 9.75pt;
+}
+/* Added By Pramod on 19 jun for use in claim line entitutional*/
+.tableBackgound
+{
+	background-color: #F4F4F4;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.25pt;
+	padding-left: 5px;
+	color: Black;
+}
+
+/* Added by Priya on 14th August '07 for use in Contract Details */
+.grayTextForTextbox
+{
+	color:InactiveBorder;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.75pt;
+	border-style: solid;
+	border-left: 1px solid #7B9EBD;
+	border-right: 1px solid #7B9EBD;
+	border-top: 1px solid #7B9EBD; 
+	border-bottom: 1px solid #7B9EBD;
+	vertical-align: middle;
+	padding-top: 1px;
+}
+
+.blackLine
+{
+	border-bottom: 1px solid #000000;
+	width:100%;
+	/*height:1px;*/
+}	
+	
+.drugInteraction
+{
+	font-family: Verdana;
+	text-align: center;
+	font-size: xx-small;
+	font-weight: bold;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	cursor: pointer;
+	cursor: pointer;
+}
+
+
+
+
+/*Added by sonia */
+.AllergyInteraction
+{
+	font-family: Verdana;
+	text-align: center;
+	font-size: small;
+	font-weight: bold;
+	border-right: #000000 thin solid;
+	border-top: #000000 thin solid;
+	border-left: #000000 thin solid;
+	border-bottom: #000000 thin solid;
+	border-color:#000000;
+}
+
+/*Added by sonia  to display only vertical scrollbars on div*/
+.divVertScroll
+{
+	overflow-x:none;
+	overflow-y:auto;
+	height:80px;
+}
+
+
+/* Additon ends here by Piyush on 5th july 2007 for Error Message shown to the user, common for every screen*/
+
+
+
+
+
+
+
+ul.tabs
+{
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 20px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+
+	ul.tabs li
+	{
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 20px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 20px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	/*Changed By Priya Task No:2875
+	/*background: #e0e0e0;*/
+	/*background: #ccc;*/	
+	background:#D4D0C8;
+}
+
+		ul.tabs li a
+		{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size:8.25pt;
+	font-family: Microsoft Sans Serif;
+	padding: 0 20px;
+	border: 1px solid #999; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+
+			ul.tabs li a:hover
+			{
+	background:#D4D0C8;
+}
+
+html ul.tabs li.active, html ul.tabs li.active a:hover
+{ /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #fff;
+	border-bottom: 1px solid #999; /*--Makes the active tab look like it's connected with its content--*/
+}
+
+.LabelHeader
+{
+	background-color: #dce5ea;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.50pt;
+	font-weight: bold;
+	padding-left: 5px;	
+	color: Black;
+}
+
+.SamrtCareTittleBarBase
+{
+	color:Black;
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 11pt;
+}
+
+/* For Multiline Textbox used in Application in ref to Task32965*/
+.TextboxMultiline
+{
+	background-color: White;
+	font-family: Microsoft Sans Serif;
+	font-size: 8.50pt;	
+	color: Black;
+	vertical-align: middle;
+	padding-top: 1px;	
+}
+
+.RadioText
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: Black;
+	font-weight: normal;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	text-indent: 0px;
+	margin: 0px;
+	cursor: default;
+}
+
+.ListPageHeader
+{
+	text-align: left;
+	overflow: hidden;
+}
+
+	.ListPageHeader table
+	{
+		table-layout: fixed;
+	}
+
+	.ListPageHeader td
+	{
+		background-image: url('../Includes/Images/list_grid_header_bg.gif' );
+		background-position: left;
+		background-repeat: repeat-x;
+		padding: 4px 3px 5px 6px;
+		border-right: solid 1px #9f9f9f;
+		border-bottom: solid 1px #9f9f9f;
+	}
+
+.SortLabel
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.ListPageContent
+{
+	overflow: scroll;
+	position: relative;
+}
+
+	.ListPageContent table
+	{
+		background-color: #fff;
+		border-style: none;
+		color: #000;
+		cursor: default;
+		table-layout: fixed;
+	}
+
+	.ListPageContent td
+	{
+		border: none;
+		color: #000;
+		cursor: default;
+		font-family: Tahoma, Arial, Sans-Serif;
+		font-size: 11px;
+		font-weight: normal;
+		margin: 0;
+		overflow: hidden;
+		padding: 3px 1px 4px 6px;
+	}
+
+	.ListPageContent div.ellipsis
+	{
+		width: 90%;
+		overflow: hidden;
+	}
+
+.ListPageContainer
+{
+	border: solid 1px #9f9f9f;
+	background-color: #f2f2f2;
+}
+
+.ListPageContentNumber
+{
+	text-align: right;
+}
+
+.ListPageAltRow
+{
+	background-color: #f0f6f9;
+}
+
+.ListPageEmptyDataRow
+{
+	font-size: medium;
+}
+
+.ListPageHLRow:hover
+{
+	background-color: #d3dffb;
+}
+
+.tdbg
+{
+	background-color: #dce5ea;
+	color: #000000;	
+	padding-left: 5px;
+}
+
+.ListSortUp
+{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+    background-color: Transparent;
+	text-decoration: underline;
+}
+
+.ListSortDown
+{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+    background-color: Transparent;
+	text-decoration: underline;
+}
+
+.combolist p:hover { background-color: #ccc; }
+
+    .combolist p {
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+    }
+
+    .combolist {
+        background-color: #fff;
+        border: solid 1px black;
+        /*height: 100%;*/
+        max-height: 300px;
+        overflow: auto;
+        position: absolute;
+        width: 150px;
+        z-index: 999;
+    }
+
+    .ComboBoxDrugDDImage::-ms-clear {
+        display: none;
+        height: 0;
+        width: 0;
+    }
+
+    hr.formulary {
+        margin-bottom: 0px;
+        margin-top: 1px;
+    }
+
+    .formularybgcolor1 {
+         background-color:#ccc;
+    }
+    .formularybgcolor2 {
+         background-color:#dce5ea;
+    }
+    .formularybgcolor3 {
+         background-color:#EBEB00;
+    }
+    .formularybgcolor4 {
+         background-color:#FFFF50;
+    }
+    .formularybgcolor5 {
+         background-color:#F5F500;
+    }
+    .formularyleftpadding {
+         padding-left:10px;
+    }
+    .formularywarning {
+         background-color:#FF5050;
+    }
+    .formularyfontreduce {
+         font-size:80%;
+    }
+    .formularyextrawidth {
+         width:10px;
+    }
+/*Use key phrases*/
+.DisableKeyPharses
+{
+    opacity:0.4;
+   pointer-events: none;
+}
+/*View Medication Hstory*/
+.ExpandCollapseRows{
+    color: black;
+	background-color: #ffffff;
+	font-family: Microsoft Sans Serif;
+	font-weight: Normal;
+	font-size: 8.5pt;
+	vertical-align: top;
+	height: 22px;
+	white-space: nowrap;
+	margin-left: 3px;
+}
+ .ExpandCollapseRows  .linkStyle
+    {
+        display:none;
+    }
